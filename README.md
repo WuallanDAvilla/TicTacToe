@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# 🎮 Jogo da Velha - Tic Tac Toe
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um jogo da velha moderno e estilizado feito com **React Native + Expo Router**, desenvolvido por [@WuallanDAvilla](https://github.com/WuallanDAvilla). Ideal para se divertir com os amigos ou testar suas habilidades de lógica!
 
-## Get started
+![Tela Inicial](./assets/tela-inicial.png)
+![Tela do Jogo](./assets/tela-jogo.png)
 
-1. Install dependencies
+---
 
+## 🧠 Funcionalidades
+
+✅ Jogo da velha completo com placar  
+✅ Interface intuitiva e responsiva  
+✅ Alternância automática entre jogadores  
+✅ Detecção de vitórias e empates  
+✅ Botão para reiniciar a partida  
+✅ Tela de regras integrada  
+✅ Totalmente mobile-friendly
+
+---
+
+## 📱 Tecnologias Utilizadas
+
+- **React Native**
+- **Expo Router**
+- **TypeScript**
+- **Styled Components via `StyleSheet`**
+- **Componentização e boas práticas**
+
+---
+
+## 🕹️ Como Jogar
+
+1. Baixe o projeto:
    ```bash
-   npm install
-   ```
+   git clone https://github.com/WuallanDAvilla/TicTacToe
+   cd TicTacToe
 
-2. Start the app
+## 📌 Regras Básicas
+- **O jogo é disputado em um tabuleiro 3x3**
+- **Dois jogadores se enfrentam (X e O)**
+- **Jogadas são alternadas**
+- **Vence quem alinhar 3 símbolos**
+- **Se o tabuleiro for preenchido sem vencedores: empate**
 
-   ```bash
-   npx expo start
-   ```
+## 👨‍💻 Autor
+**Desenvolvido com 💙 por Wuallan Meira Gomes D'Avilla**
 
-In the output, you'll find options to open the app in a
+GitHub: @WuallanDAvilla
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
